@@ -17,7 +17,7 @@ Two discord bots are required for this implementation:
 3. Configure Martine Bot with the `/autoporn` command in this channel
    - Martine Bot will automatically send content at 5-minute intervals
 4. Configure Autodelete Light Bot with `/set` command
-   - Configure in the channel as Martine Bot
+   - Configure in the same channel as Martine Bot
    - Specify the deletion time interval as desired
 
 ### 2. BDFD Implementation
@@ -41,4 +41,4 @@ The infinite loop operates as follows:
 
 ## Disclaimer
 
-This implementation should be used in accordance with Discord's Terms of Service and BDFD's TOS and applicable platform policies.
+This implementation should be used in accordance with [Discord's Terms](https://discord.com/terms) and [BDFD's Terms](https://botdesignerdiscord.com/tos)
