@@ -4,6 +4,8 @@
 
 This document provides a technical guide for implementing an infinite loop in the BDFD (Bot Designer for Discord) programming language. The method described utilizes automated message deletion to trigger continuous code execution.
 
+⚠️⚠️⚠️ THIS INCLUDES DEALING WITH NSFW ⚠️⚠️⚠️
+
 ## Prerequisites
 
 Two Discord bots are required for this implementation:
@@ -31,7 +33,7 @@ In your BDFD project:
    - Ensure this is set in a different channel from where Martine and Autodelete Light are configured
 
 2. Implement your code within the `$onDeleteMessage[channel id]` trigger
-   - Recommended functions: `$sendEmbedMessage`, `$channelSendMessage`
+   - Recommended functions: `$sendEmbedMessage`, `$channelSendMessage` instead of `$title`, `$description` etc.
 
 ### 3. Execution Mechanism
 
