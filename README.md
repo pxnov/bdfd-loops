@@ -26,7 +26,7 @@ In your BDFD project:
 
 1. Create a trigger using `$onDeleteMessage[channel id]`
    - Note: Direct channel ID input is required
-   - Avoid using `$getServerVar[channel id]` as it will not function or break the system
+   - Avoid using `$getServerVar[channel id]` as this is a global ticking system not per server system. It may not function or break the system
    - Ensure this is set in a different channel from where Martine and Autodelete Light are configured
 
 2. Implement your code within the `$onDeleteMessage[channel id]` trigger
